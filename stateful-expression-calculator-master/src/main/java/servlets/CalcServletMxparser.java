@@ -1,7 +1,7 @@
 package servlets;
 
-import org.mariuszgromada.math.mxparser.Argument;
-import org.mariuszgromada.math.mxparser.Expression;
+//import org.mariuszgromada.math.mxparser.Argument;
+//import org.mariuszgromada.math.mxparser.Expression;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -23,7 +23,7 @@ public class CalcServletMxparser extends HttpServlet {
     /**
      * Using always parametersMap.get(<name>)[0] because arguments names are never duplicating
      */
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+    /*protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
         Map<String, String[]> parametersMap = request.getParameterMap();
 
@@ -56,6 +56,6 @@ public class CalcServletMxparser extends HttpServlet {
                 argumentList.add(new Argument(arg));
         });
         return argumentList;
-    }
+    }*/
 
 }
